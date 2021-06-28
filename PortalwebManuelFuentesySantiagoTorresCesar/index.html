@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<link href="/PortalwebManuelFuentesySantiagoTorresCesar/Estilosdepaginas/estilos1.css" rel="stylesheet" type="text/css">
+<head>
+<font size="18">
+<font color="#ffffff">
+<br>    
+       <marquee behaviour=alternate scrolldelay=50 bgcolor="#0000" >"Validacion de Usuario"</marquee> 
+        </font>
+		</font>
+<title>Portal web</title>
+<meta charset="UTF-8">
+
+<script type="text/javascript">
+function validar()
+{
+var usuario = document.getElementById("usuario").value;
+var contraseña = document.getElementById("pass").value;
+if(usuario=="Conalep"&& contraseña=="Proyecto")
+{
+    alert("Usuario y Contraseña Validos");
+	window.location="/PortalwebManuelFuentesySantiagoTorresCesar/PaginasWeb/Listas.html";
+}
+else
+{
+    alert("Consulta tu Administrador");
+}	
+}
+</script>
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+<center>
+<table>
+<tr>
+
+    <td><label>Usuario:</label></td> <td><input type="text" name"usuario" id="usuario"></td>
+</tr>
+
+<tr>	
+    <td><label>Contraseña:</label></td> <td><input type="password" name"pass" id="pass"></td>
+</tr>
+
+<tr>
+    <td colspan="2"><input type="button" name="btnVerifica" id="btnVerifica" onclick="validar()" value="Verificar" style="width: 100%"></td>
+</tr>
+
+</table>
+</center>
+</body>
+</html> 

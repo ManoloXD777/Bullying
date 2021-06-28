@@ -1,0 +1,10 @@
+body{
+	background:url(../Imagenes/imagen13.jpg);
+	background-repeat:no-repeat;
+ font-family: Arial, sans-serif;
+    color: #2A0A1B;
+	
+	position:absolute;
+	background-attachment: fixed; 
+	width:100%;
+}

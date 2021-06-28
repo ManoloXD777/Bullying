@@ -1,0 +1,76 @@
+body{
+	background:url(../Imagenes/fondo.jpg);
+	background-repeat:no-repeat;
+ font-family: Arial, sans-serif;
+    color: #2A0A1B;
+	
+	position:absolute;
+	background-attachment: fixed; 
+	width:100%;
+}
+
+
+.destacado
+{
+font-family:"Arial";​
+
+font-size:14px;
+
+font-weight:medium;
+
+font-style:normal;
+
+text-align: justify;
+	
+}
+
+#menu ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#menu #item{
+float:left;
+}
+
+#menu #item a{
+ background:#000000;
+ color:#FFFFFF;
+ padding:12px 22px;
+ display:block;
+ font-family:Arial;
+ font-size:16px;
+ text-decoration:none;
+}
+
+#menu #desple{
+ display:none;
+ position:absolute;
+ min-width:22px;
+}
+
+#menu #item:hover #desple{
+ display:block;
+}
+
+#menu #item a:hover{
+ background:#A6A6A6;
+ color:FFFFFF;
+}
+
+#class li{
+background-color: gray;​
+}
+
+#class li{
+border: 5px double black;  ​
+
+  border-top-style: dashed;​
+
+  border-right-style: dashed;​
+
+  border-bottom-style: dashed;​
+
+  border-left-style: dashed;​
+}
